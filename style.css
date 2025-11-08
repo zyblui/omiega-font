@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Omiega;
+    src: url("omiega.ttf");
+}
+.omiega{
+    font-family:Omiega,sans-serif;
+}
+.large{
+    font-size:xx-large
+}
+h1,h2{
+    margin:0
+}
+tr.omiega{
+    font-size: 100px;
+}
+.container{
+    border:solid 2px blue;
+    margin:150px 250px;
+    padding: 30px
+}
