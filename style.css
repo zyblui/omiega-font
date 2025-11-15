@@ -2,24 +2,37 @@
     font-family: Omiega;
     src: url("omiega.ttf");
 }
-.omiega{
-    font-family:Omiega,sans-serif;
+
+.omiega {
+    font-family: Omiega, sans-serif;
 }
-.large{
-    font-size:xx-large
+
+.large {
+    font-size: xx-large;
 }
-h1,h2{
-    margin:0
+
+h1,
+h2 {
+    margin: 0;
 }
-tr.omiega{
+
+tr.omiega {
     font-size: 100px;
 }
-.container{
-    border:solid 2px blue;
-    margin:150px 250px;
-    padding: 30px
+
+.container {
+    border: solid 2px blue;
+    margin: 150px 250px;
+    padding: 30px;
 }
-input{
-    width:100%;
+
+input {
+    width: 100%;
     font-size: xx-large;
+}
+
+@media screen and (height < 600px) {
+    .container {
+        padding:30px
+    }
 }
