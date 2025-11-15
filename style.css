@@ -31,8 +31,9 @@ input {
     font-size: xx-large;
 }
 
-@media screen and (height < 600px) {
+@media screen and (width < 750px) {
     .container {
-        padding:30px
+        padding: 30px;
+        margin: 0
     }
 }
